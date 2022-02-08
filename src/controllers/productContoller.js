@@ -103,6 +103,7 @@ const updateProductById = async (req, res) => {
     }
 };
 
+
 const deleteProductById = async (req, res) => {
     try {
         let paramsId = req.params.productId;
@@ -120,6 +121,7 @@ const deleteProductById = async (req, res) => {
         return res.status(500).send({ message: err.message });
     }
 };
+
 
 
 module.exports = { createProduct, productByQuery, productByParams, updateProductById, deleteProductById }

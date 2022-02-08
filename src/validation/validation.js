@@ -384,5 +384,4 @@ const checkOrder = async (req, res, next) => {
     }
 }
 
-
 module.exports = { checkUser, checkUserupdate, checkProduct, checkProductUpdate, isValidRequestBody, authorizer, checkOrder }

@@ -54,7 +54,6 @@ const userLogin = async (req, res) => {
     }
 };
 
-
 const getuserById = async (req, res) => {
     try {
         const userId = req.params.userId

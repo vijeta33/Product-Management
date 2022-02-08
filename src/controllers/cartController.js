@@ -73,7 +73,6 @@ const createCart = async (req, res) => {
 }
 
 
-
 const updateCart = async (req, res) => {
     try {
         let { cartId, productId, removeProduct } = req.body

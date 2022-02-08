@@ -13,7 +13,7 @@ const userSchema = new mongoose.Schema({
         required: true,
         trim: true
     },
-    
+
     email: { // valid
         type: String,
         required: true,
@@ -77,8 +77,7 @@ const userSchema = new mongoose.Schema({
             },
         }
     },
-},
-    { timestamps: true }
-)
- 
+}, { timestamps: true })
+
+
 module.exports = mongoose.model('UserProduct', userSchema)

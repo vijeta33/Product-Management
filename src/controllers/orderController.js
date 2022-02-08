@@ -31,8 +31,6 @@ const creatOrder = async (req, res) => {
     }
 }
 
-
-
 const cancelOrder = async (req, res) => {
     try {
         let productId = req.body.orderId
